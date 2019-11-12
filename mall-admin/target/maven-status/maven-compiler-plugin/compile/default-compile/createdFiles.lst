@@ -1,0 +1,8 @@
+com\anglia\mall\config\Swagger2UIConfig.class
+com\anglia\mall\config\RedisConfig.class
+com\anglia\mall\service\PmsBrandService.class
+com\anglia\mall\AdminAppMain.class
+com\anglia\mall\controller\PmdBrandController.class
+com\anglia\mall\service\impl\PmsBrandServiceImpl.class
+com\anglia\mall\config\DruidConfig.class
+com\anglia\mall\mapper\PmsBrandMapper.class
