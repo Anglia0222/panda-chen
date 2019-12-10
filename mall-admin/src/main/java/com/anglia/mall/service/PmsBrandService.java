@@ -6,5 +6,9 @@ import org.springframework.stereotype.Service;
 
 public interface PmsBrandService {
 
-    public PmsBrand brand(Long id);
+    PmsBrand brand(Long id);
+
+    int delete(Long id);
+
+    int update(Long id,PmsBrand brand);
 }

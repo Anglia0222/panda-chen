@@ -8,5 +8,9 @@ import org.springframework.stereotype.Component;
 @Component
 public interface PmsBrandMapper {
 
-    public PmsBrand selectByPrimaryKey(Long id);
+    PmsBrand selectByPrimaryKey(Long id);
+
+    int deleteByPrimaryKey(Long id);
+
+    int updateByPrimaryKeySelective(Long id,PmsBrand brand);
 }

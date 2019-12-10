@@ -547,3 +547,496 @@ Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	... 1 more
+2019-11-12 21:59:12,067 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:21) INFO  --> HV000001: Hibernate Validator 6.0.17.Final
+2019-11-12 21:59:13,138 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:50) INFO  --> Starting AdminAppMain on LAPTOP-ILE10CHG with PID 20616 (G:\workSpaceForIDEA\mall-li\mall-admin\target\classes started by 有之君 in G:\workSpaceForIDEA\mall-li)
+2019-11-12 21:59:13,139 com.anglia.mall.AdminAppMain [main] (SpringApplication.java:648) INFO  --> No active profile set, falling back to default profiles: default
+2019-11-12 21:59:16,972 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:244) INFO  --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-12 21:59:16,980 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:126) INFO  --> Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-12 21:59:17,119 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:182) INFO  --> Finished Spring Data repository scanning in 101ms. Found 0 repository interfaces.
+2019-11-12 21:59:17,830 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:330) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d963a362] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-12 21:59:18,655 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:90) INFO  --> Tomcat initialized with port(s): 8080 (http)
+2019-11-12 21:59:20,232 org.springframework.web.context.ContextLoader [main] (ServletWebServerApplicationContext.java:284) INFO  --> Root WebApplicationContext: initialization completed in 6749 ms
+2019-11-12 21:59:20,276 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:130) INFO  --> 配置访问监控的servlet信息
+2019-11-12 21:59:20,378 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:142) INFO  --> 配置访问监控的servlet信息完毕
+2019-11-12 21:59:20,384 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:152) INFO  --> 配置监控的过滤器信息
+2019-11-12 21:59:20,392 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:158) INFO  --> 配置监控的过滤器完毕
+2019-11-12 21:59:20,784 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:91) INFO  --> 开始加载DruidDataSource信息
+2019-11-12 21:59:20,859 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:118) INFO  --> 加载DruidDataSource信息完毕
+2019-11-12 21:59:23,918 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] (EndpointLinksResolver.java:58) INFO  --> Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-12 21:59:24,031 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-12 21:59:24,361 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:171) INFO  --> Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-12 21:59:25,517 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2019-11-12 21:59:25,591 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2019-11-12 21:59:25,655 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2019-11-12 21:59:26,015 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:202) INFO  --> Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-12 21:59:26,041 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:59) INFO  --> Started AdminAppMain in 14.669 seconds (JVM running for 18.085)
+2019-11-12 21:59:26,225 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(1)-192.168.20.1] (FrameworkServlet.java:524) INFO  --> Initializing Servlet 'dispatcherServlet'
+2019-11-12 21:59:26,236 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(1)-192.168.20.1] (FrameworkServlet.java:546) INFO  --> Completed initialization in 11 ms
+2019-11-12 21:59:27,975 com.alibaba.druid.pool.DruidDataSource [RMI TCP Connection(3)-192.168.20.1] (DruidDataSource.java:1003) INFO  --> {dataSource-1} inited
+2019-11-12 21:59:28,594 io.lettuce.core.EpollProvider [parallel-1] (EpollProvider.java:68) INFO  --> Starting without optional epoll library
+2019-11-12 21:59:28,595 io.lettuce.core.KqueueProvider [parallel-1] (KqueueProvider.java:70) INFO  --> Starting without optional kqueue library
+2019-11-12 21:59:39,748 org.springframework.boot.actuate.redis.RedisReactiveHealthIndicator [parallel-1] (AbstractReactiveHealthIndicator.java:89) WARN  --> Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1106)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1085)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:876)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:377)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:91)
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:85)
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:225)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:235)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:204)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:113)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:113)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1104)
+	... 14 more
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.20.131:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:263)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+2019-11-12 22:05:25,211 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:21) INFO  --> HV000001: Hibernate Validator 6.0.17.Final
+2019-11-12 22:05:25,421 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:50) INFO  --> Starting AdminAppMain on LAPTOP-ILE10CHG with PID 18880 (G:\workSpaceForIDEA\mall-li\mall-admin\target\classes started by 有之君 in G:\workSpaceForIDEA\mall-li)
+2019-11-12 22:05:25,422 com.anglia.mall.AdminAppMain [main] (SpringApplication.java:648) INFO  --> No active profile set, falling back to default profiles: default
+2019-11-12 22:05:26,710 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:244) INFO  --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-12 22:05:26,714 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:126) INFO  --> Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-12 22:05:26,758 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:182) INFO  --> Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2019-11-12 22:05:27,107 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:330) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6734ec30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-12 22:05:27,374 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:90) INFO  --> Tomcat initialized with port(s): 8080 (http)
+2019-11-12 22:05:28,579 org.springframework.web.context.ContextLoader [main] (ServletWebServerApplicationContext.java:284) INFO  --> Root WebApplicationContext: initialization completed in 3120 ms
+2019-11-12 22:05:28,590 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:130) INFO  --> 配置访问监控的servlet信息
+2019-11-12 22:05:28,593 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:142) INFO  --> 配置访问监控的servlet信息完毕
+2019-11-12 22:05:28,595 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:152) INFO  --> 配置监控的过滤器信息
+2019-11-12 22:05:28,599 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:158) INFO  --> 配置监控的过滤器完毕
+2019-11-12 22:05:28,751 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:91) INFO  --> 开始加载DruidDataSource信息
+2019-11-12 22:05:28,773 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:118) INFO  --> 加载DruidDataSource信息完毕
+2019-11-12 22:05:30,413 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] (EndpointLinksResolver.java:58) INFO  --> Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-12 22:05:30,482 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-12 22:05:30,635 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:171) INFO  --> Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-12 22:05:30,993 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2019-11-12 22:05:31,008 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2019-11-12 22:05:31,043 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2019-11-12 22:05:31,210 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:202) INFO  --> Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-12 22:05:31,213 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:59) INFO  --> Started AdminAppMain in 6.17 seconds (JVM running for 7.449)
+2019-11-12 22:05:32,074 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(1)-192.168.20.1] (FrameworkServlet.java:524) INFO  --> Initializing Servlet 'dispatcherServlet'
+2019-11-12 22:05:32,087 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(1)-192.168.20.1] (FrameworkServlet.java:546) INFO  --> Completed initialization in 11 ms
+2019-11-12 22:05:32,304 com.alibaba.druid.pool.DruidDataSource [RMI TCP Connection(2)-192.168.20.1] (DruidDataSource.java:1003) INFO  --> {dataSource-1} inited
+2019-11-12 22:05:32,529 io.lettuce.core.EpollProvider [parallel-1] (EpollProvider.java:68) INFO  --> Starting without optional epoll library
+2019-11-12 22:05:32,531 io.lettuce.core.KqueueProvider [parallel-1] (KqueueProvider.java:70) INFO  --> Starting without optional kqueue library
+2019-11-12 22:05:43,450 org.springframework.boot.actuate.redis.RedisReactiveHealthIndicator [parallel-1] (AbstractReactiveHealthIndicator.java:89) WARN  --> Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1106)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1085)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:876)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:377)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:91)
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:85)
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:225)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:235)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:204)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:113)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:113)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1104)
+	... 14 more
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.20.131:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:263)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+2019-11-21 23:09:09,731 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:21) INFO  --> HV000001: Hibernate Validator 6.0.17.Final
+2019-11-21 23:09:10,880 com.alibaba.dubbo.common.logger.LoggerFactory [main] (?:?) INFO  --> using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2019-11-21 23:09:10,880 com.alibaba.boot.dubbo.context.event.WelcomeLogoApplicationListener [main] (WelcomeLogoApplicationListener.java:55) INFO  --> 
+
+ :: Dubbo Spring Boot (v0.1.2.RELEASE) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.6.5) : https://github.com/apache/incubator-dubbo
+ :: Mailing List : dev@dubbo.incubator.apache.org
+
+2019-11-21 23:09:10,890 com.alibaba.boot.dubbo.context.event.OverrideDubboConfigApplicationListener [main] (OverrideDubboConfigApplicationListener.java:70) INFO  --> Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2019-11-21 23:09:11,160 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:50) INFO  --> Starting AdminAppMain on LAPTOP-ILE10CHG with PID 310340 (G:\workSpaceForIDEA\mall-li\mall-admin\target\classes started by 有之君 in G:\workSpaceForIDEA\mall-li)
+2019-11-21 23:09:11,160 com.anglia.mall.AdminAppMain [main] (SpringApplication.java:648) INFO  --> No active profile set, falling back to default profiles: default
+2019-11-21 23:09:14,837 com.alibaba.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar [main] (DubboConfigBindingRegistrar.java:122) INFO  --> The dubbo config bean definition [name : com.alibaba.dubbo.config.ApplicationConfig#0, class : com.alibaba.dubbo.config.ApplicationConfig] has been registered.
+2019-11-21 23:09:14,838 com.alibaba.dubbo.config.spring.context.annotation.DubboConfigBindingRegistrar [main] (DubboConfigBindingRegistrar.java:146) INFO  --> The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] has been registered.
+2019-11-21 23:09:15,460 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:244) INFO  --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-21 23:09:15,463 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:126) INFO  --> Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-21 23:09:15,581 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:182) INFO  --> Finished Spring Data repository scanning in 86ms. Found 0 repository interfaces.
+2019-11-21 23:09:16,138 org.springframework.boot.SpringApplication [main] (SpringApplication.java:823) ERROR --> Application run failed
+java.lang.IllegalStateException: Cannot load configuration class: com.alibaba.boot.dubbo.autoconfigure.DubboAutoConfiguration
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:413)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:253)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:286)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.anglia.mall.AdminAppMain.main(AdminAppMain.java:11)
+Caused by: java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(AnnotationParser.java:724)
+	at sun.reflect.annotation.AnnotationParser.parseArray(AnnotationParser.java:531)
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(AnnotationParser.java:355)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:286)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(AnnotationParser.java:120)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:72)
+	at java.lang.reflect.Executable.declaredAnnotations(Executable.java:599)
+	at java.lang.reflect.Executable.declaredAnnotations(Executable.java:597)
+	at java.lang.reflect.Executable.getAnnotation(Executable.java:570)
+	at java.lang.reflect.Method.getAnnotation(Method.java:622)
+	at java.lang.reflect.AnnotatedElement.isAnnotationPresent(AnnotatedElement.java:258)
+	at java.lang.reflect.AccessibleObject.isAnnotationPresent(AccessibleObject.java:191)
+	at org.springframework.core.annotation.AnnotatedElementUtils.hasAnnotation(AnnotatedElementUtils.java:599)
+	at org.springframework.context.annotation.BeanAnnotationHelper.isBeanAnnotated(BeanAnnotationHelper.java:41)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.isMatch(ConfigurationClassEnhancer.java:439)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$ConditionalCallbackFilter.accept(ConfigurationClassEnhancer.java:192)
+	at org.springframework.cglib.proxy.Enhancer.emitMethods(Enhancer.java:1214)
+	at org.springframework.cglib.proxy.Enhancer.generateClass(Enhancer.java:723)
+	at org.springframework.cglib.transform.TransformingClassGenerator.generateClass(TransformingClassGenerator.java:33)
+	at org.springframework.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanFactoryAwareGeneratorStrategy.generate(ConfigurationClassEnhancer.java:252)
+	at org.springframework.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:358)
+	at org.springframework.cglib.proxy.Enhancer.generate(Enhancer.java:582)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:110)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:108)
+	at org.springframework.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
+	at org.springframework.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:134)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:319)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:569)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:416)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.createClass(ConfigurationClassEnhancer.java:137)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:109)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:402)
+	... 12 more
+2019-11-21 23:10:53,858 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:21) INFO  --> HV000001: Hibernate Validator 6.0.17.Final
+2019-11-21 23:10:54,041 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:50) INFO  --> Starting AdminAppMain on LAPTOP-ILE10CHG with PID 311436 (G:\workSpaceForIDEA\mall-li\mall-admin\target\classes started by 有之君 in G:\workSpaceForIDEA\mall-li)
+2019-11-21 23:10:54,042 com.anglia.mall.AdminAppMain [main] (SpringApplication.java:648) INFO  --> No active profile set, falling back to default profiles: default
+2019-11-21 23:10:55,331 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:244) INFO  --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-21 23:10:55,331 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:126) INFO  --> Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-21 23:10:55,391 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:182) INFO  --> Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2019-11-21 23:10:55,964 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:330) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$888983ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 23:10:56,760 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:90) INFO  --> Tomcat initialized with port(s): 8080 (http)
+2019-11-21 23:10:58,277 org.springframework.web.context.ContextLoader [main] (ServletWebServerApplicationContext.java:284) INFO  --> Root WebApplicationContext: initialization completed in 4199 ms
+2019-11-21 23:10:58,317 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:130) INFO  --> 配置访问监控的servlet信息
+2019-11-21 23:10:58,362 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:142) INFO  --> 配置访问监控的servlet信息完毕
+2019-11-21 23:10:58,364 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:152) INFO  --> 配置监控的过滤器信息
+2019-11-21 23:10:58,368 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:158) INFO  --> 配置监控的过滤器完毕
+2019-11-21 23:10:58,697 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:91) INFO  --> 开始加载DruidDataSource信息
+2019-11-21 23:10:58,763 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:118) INFO  --> 加载DruidDataSource信息完毕
+2019-11-21 23:11:01,640 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] (EndpointLinksResolver.java:58) INFO  --> Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-21 23:11:01,750 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-21 23:11:02,059 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:171) INFO  --> Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 23:11:03,271 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2019-11-21 23:11:03,327 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2019-11-21 23:11:03,375 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2019-11-21 23:11:03,645 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:202) INFO  --> Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-21 23:11:03,670 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:59) INFO  --> Started AdminAppMain in 10.018 seconds (JVM running for 11.347)
+2019-11-21 23:11:05,081 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(3)-192.168.20.1] (FrameworkServlet.java:524) INFO  --> Initializing Servlet 'dispatcherServlet'
+2019-11-21 23:11:05,111 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(3)-192.168.20.1] (FrameworkServlet.java:546) INFO  --> Completed initialization in 30 ms
+2019-11-21 23:11:06,047 com.alibaba.druid.pool.DruidDataSource [RMI TCP Connection(2)-192.168.20.1] (DruidDataSource.java:1003) INFO  --> {dataSource-1} inited
+2019-11-21 23:11:06,522 io.lettuce.core.EpollProvider [parallel-1] (EpollProvider.java:68) INFO  --> Starting without optional epoll library
+2019-11-21 23:11:06,523 io.lettuce.core.KqueueProvider [parallel-1] (KqueueProvider.java:70) INFO  --> Starting without optional kqueue library
+2019-11-21 23:11:17,820 org.springframework.boot.actuate.redis.RedisReactiveHealthIndicator [parallel-1] (AbstractReactiveHealthIndicator.java:89) WARN  --> Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1106)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1085)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:876)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:377)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:91)
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:85)
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:225)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:235)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:204)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:113)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:113)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1104)
+	... 14 more
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.20.131:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:263)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+2019-11-21 23:44:28,066 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:21) INFO  --> HV000001: Hibernate Validator 6.0.17.Final
+2019-11-21 23:44:28,582 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:50) INFO  --> Starting AdminAppMain on LAPTOP-ILE10CHG with PID 316120 (G:\workSpaceForIDEA\mall-li\mall-admin\target\classes started by 有之君 in G:\workSpaceForIDEA\mall-li)
+2019-11-21 23:44:28,583 com.anglia.mall.AdminAppMain [main] (SpringApplication.java:648) INFO  --> No active profile set, falling back to default profiles: default
+2019-11-21 23:44:33,344 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:244) INFO  --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-21 23:44:33,347 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:126) INFO  --> Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-21 23:44:33,452 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:182) INFO  --> Finished Spring Data repository scanning in 89ms. Found 0 repository interfaces.
+2019-11-21 23:44:33,901 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:330) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9f7dd97d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 23:44:34,432 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:90) INFO  --> Tomcat initialized with port(s): 8080 (http)
+2019-11-21 23:44:35,964 org.springframework.web.context.ContextLoader [main] (ServletWebServerApplicationContext.java:284) INFO  --> Root WebApplicationContext: initialization completed in 7280 ms
+2019-11-21 23:44:35,978 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:130) INFO  --> 配置访问监控的servlet信息
+2019-11-21 23:44:36,013 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:142) INFO  --> 配置访问监控的servlet信息完毕
+2019-11-21 23:44:36,015 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:152) INFO  --> 配置监控的过滤器信息
+2019-11-21 23:44:36,019 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:158) INFO  --> 配置监控的过滤器完毕
+2019-11-21 23:44:36,304 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:91) INFO  --> 开始加载DruidDataSource信息
+2019-11-21 23:44:36,358 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:118) INFO  --> 加载DruidDataSource信息完毕
+2019-11-21 23:44:39,114 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] (EndpointLinksResolver.java:58) INFO  --> Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-21 23:44:39,197 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-21 23:44:39,396 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:171) INFO  --> Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 23:44:39,999 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2019-11-21 23:44:40,060 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2019-11-21 23:44:40,110 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2019-11-21 23:44:40,356 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:202) INFO  --> Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-21 23:44:40,358 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:59) INFO  --> Started AdminAppMain in 12.619 seconds (JVM running for 14.679)
+2019-11-21 23:44:41,330 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-192.168.20.1] (FrameworkServlet.java:524) INFO  --> Initializing Servlet 'dispatcherServlet'
+2019-11-21 23:44:41,343 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-192.168.20.1] (FrameworkServlet.java:546) INFO  --> Completed initialization in 13 ms
+2019-11-21 23:44:41,864 com.alibaba.druid.pool.DruidDataSource [RMI TCP Connection(1)-192.168.20.1] (DruidDataSource.java:1003) INFO  --> {dataSource-1} inited
+2019-11-21 23:44:42,213 io.lettuce.core.EpollProvider [parallel-1] (EpollProvider.java:68) INFO  --> Starting without optional epoll library
+2019-11-21 23:44:42,214 io.lettuce.core.KqueueProvider [parallel-1] (KqueueProvider.java:70) INFO  --> Starting without optional kqueue library
+2019-11-21 23:44:53,476 org.springframework.boot.actuate.redis.RedisReactiveHealthIndicator [parallel-1] (AbstractReactiveHealthIndicator.java:89) WARN  --> Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1106)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1085)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:876)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:377)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:91)
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:85)
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:225)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:235)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:204)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:113)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:113)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1104)
+	... 14 more
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.20.131:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:263)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+2019-12-03 23:06:58,940 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:21) INFO  --> HV000001: Hibernate Validator 6.0.17.Final
+2019-12-03 23:07:00,256 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:50) INFO  --> Starting AdminAppMain on LAPTOP-ILE10CHG with PID 496488 (G:\workSpaceForIDEA\mall-li\mall-admin\target\classes started by 有之君 in G:\workSpaceForIDEA\mall-li)
+2019-12-03 23:07:00,256 com.anglia.mall.AdminAppMain [main] (SpringApplication.java:648) INFO  --> No active profile set, falling back to default profiles: default
+2019-12-03 23:07:07,371 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:244) INFO  --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-03 23:07:07,371 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:126) INFO  --> Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-03 23:07:07,544 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:182) INFO  --> Finished Spring Data repository scanning in 152ms. Found 0 repository interfaces.
+2019-12-03 23:07:08,739 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:330) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$17bab5b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-03 23:07:10,333 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:90) INFO  --> Tomcat initialized with port(s): 8080 (http)
+2019-12-03 23:07:12,248 org.springframework.web.context.ContextLoader [main] (ServletWebServerApplicationContext.java:284) INFO  --> Root WebApplicationContext: initialization completed in 11752 ms
+2019-12-03 23:07:12,311 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:130) INFO  --> 配置访问监控的servlet信息
+2019-12-03 23:07:12,561 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:142) INFO  --> 配置访问监控的servlet信息完毕
+2019-12-03 23:07:12,561 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:152) INFO  --> 配置监控的过滤器信息
+2019-12-03 23:07:12,670 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:158) INFO  --> 配置监控的过滤器完毕
+2019-12-03 23:07:13,045 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:91) INFO  --> 开始加载DruidDataSource信息
+2019-12-03 23:07:13,076 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:118) INFO  --> 加载DruidDataSource信息完毕
+2019-12-03 23:07:16,828 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] (EndpointLinksResolver.java:58) INFO  --> Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-03 23:07:16,952 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-03 23:07:17,327 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:171) INFO  --> Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-03 23:07:18,358 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2019-12-03 23:07:18,421 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2019-12-03 23:07:18,468 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2019-12-03 23:07:18,702 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:202) INFO  --> Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-03 23:07:18,718 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:59) INFO  --> Started AdminAppMain in 20.317 seconds (JVM running for 24.244)
+2019-12-03 23:07:19,155 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(3)-192.168.20.1] (FrameworkServlet.java:524) INFO  --> Initializing Servlet 'dispatcherServlet'
+2019-12-03 23:07:19,171 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(3)-192.168.20.1] (FrameworkServlet.java:546) INFO  --> Completed initialization in 16 ms
+2019-12-03 23:07:21,264 com.alibaba.druid.pool.DruidDataSource [RMI TCP Connection(5)-192.168.20.1] (DruidDataSource.java:1003) INFO  --> {dataSource-1} inited
+2019-12-03 23:07:21,764 io.lettuce.core.EpollProvider [parallel-1] (EpollProvider.java:68) INFO  --> Starting without optional epoll library
+2019-12-03 23:07:21,764 io.lettuce.core.KqueueProvider [parallel-1] (KqueueProvider.java:70) INFO  --> Starting without optional kqueue library
+2019-12-03 23:07:33,092 org.springframework.boot.actuate.redis.RedisReactiveHealthIndicator [parallel-1] (AbstractReactiveHealthIndicator.java:89) WARN  --> Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1106)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1085)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:876)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:377)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:91)
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:85)
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:225)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:235)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:204)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:113)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:113)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1104)
+	... 14 more
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.20.131:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:263)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+2019-12-03 23:21:35,825 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:21) INFO  --> HV000001: Hibernate Validator 6.0.17.Final
+2019-12-03 23:21:37,268 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:50) INFO  --> Starting AdminAppMain on LAPTOP-ILE10CHG with PID 494136 (G:\workSpaceForIDEA\mall-li\mall-admin\target\classes started by 有之君 in G:\workSpaceForIDEA\mall-li)
+2019-12-03 23:21:37,268 com.anglia.mall.AdminAppMain [main] (SpringApplication.java:648) INFO  --> No active profile set, falling back to default profiles: default
+2019-12-03 23:21:43,571 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:244) INFO  --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-03 23:21:43,574 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:126) INFO  --> Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-03 23:21:43,668 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:182) INFO  --> Finished Spring Data repository scanning in 80ms. Found 0 repository interfaces.
+2019-12-03 23:21:44,427 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:330) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ad209441] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-03 23:21:45,187 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:90) INFO  --> Tomcat initialized with port(s): 8080 (http)
+2019-12-03 23:21:47,089 org.springframework.web.context.ContextLoader [main] (ServletWebServerApplicationContext.java:284) INFO  --> Root WebApplicationContext: initialization completed in 9575 ms
+2019-12-03 23:21:47,131 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:130) INFO  --> 配置访问监控的servlet信息
+2019-12-03 23:21:47,184 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:142) INFO  --> 配置访问监控的servlet信息完毕
+2019-12-03 23:21:47,186 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:152) INFO  --> 配置监控的过滤器信息
+2019-12-03 23:21:47,191 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:158) INFO  --> 配置监控的过滤器完毕
+2019-12-03 23:21:47,598 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:91) INFO  --> 开始加载DruidDataSource信息
+2019-12-03 23:21:47,631 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:118) INFO  --> 加载DruidDataSource信息完毕
+2019-12-03 23:21:50,872 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] (EndpointLinksResolver.java:58) INFO  --> Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-03 23:21:50,985 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-03 23:21:51,294 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:171) INFO  --> Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-03 23:21:52,159 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2019-12-03 23:21:52,206 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2019-12-03 23:21:52,302 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2019-12-03 23:21:52,669 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:202) INFO  --> Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-03 23:21:52,704 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:59) INFO  --> Started AdminAppMain in 17.334 seconds (JVM running for 20.058)
+2019-12-03 23:21:53,323 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(1)-192.168.20.1] (FrameworkServlet.java:524) INFO  --> Initializing Servlet 'dispatcherServlet'
+2019-12-03 23:21:53,333 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(1)-192.168.20.1] (FrameworkServlet.java:546) INFO  --> Completed initialization in 9 ms
+2019-12-03 23:21:54,795 com.alibaba.druid.pool.DruidDataSource [RMI TCP Connection(3)-192.168.20.1] (DruidDataSource.java:1003) INFO  --> {dataSource-1} inited
+2019-12-03 23:21:55,266 io.lettuce.core.EpollProvider [parallel-1] (EpollProvider.java:68) INFO  --> Starting without optional epoll library
+2019-12-03 23:21:55,268 io.lettuce.core.KqueueProvider [parallel-1] (KqueueProvider.java:70) INFO  --> Starting without optional kqueue library
+2019-12-03 23:22:06,510 org.springframework.boot.actuate.redis.RedisReactiveHealthIndicator [parallel-1] (AbstractReactiveHealthIndicator.java:89) WARN  --> Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1106)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1085)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:876)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:377)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:91)
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:85)
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:225)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.20.131:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:235)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:204)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:113)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:113)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1104)
+	... 14 more
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /192.168.20.131:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:263)
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:127)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+2019-12-03 23:30:09,086 org.hibernate.validator.internal.util.Version [background-preinit] (Version.java:21) INFO  --> HV000001: Hibernate Validator 6.0.17.Final
+2019-12-03 23:30:10,012 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:50) INFO  --> Starting AdminAppMain on LAPTOP-ILE10CHG with PID 495888 (G:\workSpaceForIDEA\mall-li\mall-admin\target\classes started by 有之君 in G:\workSpaceForIDEA\mall-li)
+2019-12-03 23:30:10,013 com.anglia.mall.AdminAppMain [main] (SpringApplication.java:648) INFO  --> No active profile set, falling back to default profiles: default
+2019-12-03 23:30:13,644 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:244) INFO  --> Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-03 23:30:13,648 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:126) INFO  --> Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-03 23:30:13,765 org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] (RepositoryConfigurationDelegate.java:182) INFO  --> Finished Spring Data repository scanning in 85ms. Found 0 repository interfaces.
+2019-12-03 23:30:14,416 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] (PostProcessorRegistrationDelegate.java:330) INFO  --> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f8b4b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-03 23:30:15,127 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:90) INFO  --> Tomcat initialized with port(s): 8080 (http)
+2019-12-03 23:30:16,849 org.springframework.web.context.ContextLoader [main] (ServletWebServerApplicationContext.java:284) INFO  --> Root WebApplicationContext: initialization completed in 6538 ms
+2019-12-03 23:30:16,885 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:130) INFO  --> 配置访问监控的servlet信息
+2019-12-03 23:30:16,908 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:142) INFO  --> 配置访问监控的servlet信息完毕
+2019-12-03 23:30:16,911 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:152) INFO  --> 配置监控的过滤器信息
+2019-12-03 23:30:16,915 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:158) INFO  --> 配置监控的过滤器完毕
+2019-12-03 23:30:17,274 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:91) INFO  --> 开始加载DruidDataSource信息
+2019-12-03 23:30:17,323 com.anglia.mall.config.DruidConfig [main] (DruidConfig.java:118) INFO  --> 加载DruidDataSource信息完毕
+2019-12-03 23:30:20,521 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] (EndpointLinksResolver.java:58) INFO  --> Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-03 23:30:20,728 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] (PropertySourcedRequestMappingHandlerMapping.java:69) INFO  --> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-03 23:30:21,134 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] (ExecutorConfigurationSupport.java:171) INFO  --> Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-03 23:30:22,156 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:147) INFO  --> Context refreshed
+2019-12-03 23:30:22,228 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] (DocumentationPluginsBootstrapper.java:150) INFO  --> Found 1 custom documentation plugin(s)
+2019-12-03 23:30:22,290 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] (ApiListingReferenceScanner.java:41) INFO  --> Scanning for api listing references
+2019-12-03 23:30:22,766 org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] (TomcatWebServer.java:202) INFO  --> Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-03 23:30:22,790 com.anglia.mall.AdminAppMain [main] (StartupInfoLogger.java:59) INFO  --> Started AdminAppMain in 14.192 seconds (JVM running for 19.436)
+2019-12-03 23:30:24,039 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(1)-192.168.20.1] (FrameworkServlet.java:524) INFO  --> Initializing Servlet 'dispatcherServlet'
+2019-12-03 23:30:24,054 org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(1)-192.168.20.1] (FrameworkServlet.java:546) INFO  --> Completed initialization in 14 ms
+2019-12-03 23:30:24,809 com.alibaba.druid.pool.DruidDataSource [RMI TCP Connection(2)-192.168.20.1] (DruidDataSource.java:1003) INFO  --> {dataSource-1} inited
+2019-12-03 23:30:25,379 io.lettuce.core.EpollProvider [parallel-1] (EpollProvider.java:68) INFO  --> Starting without optional epoll library
+2019-12-03 23:30:25,380 io.lettuce.core.KqueueProvider [parallel-1] (KqueueProvider.java:70) INFO  --> Starting without optional kqueue library

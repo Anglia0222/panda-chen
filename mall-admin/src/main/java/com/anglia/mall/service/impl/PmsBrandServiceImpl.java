@@ -16,4 +16,12 @@ public class PmsBrandServiceImpl implements PmsBrandService {
         return pmsBrandMapper.selectByPrimaryKey(id);
     }
 
+    public int delete(Long id) {
+        return pmsBrandMapper.deleteByPrimaryKey(id);
+    }
+
+    public int update(Long id, PmsBrand brand) {
+        return pmsBrandMapper.updateByPrimaryKeySelective(id,brand);
+    }
+
 }
